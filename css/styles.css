@@ -191,6 +191,11 @@ body {
 		background-color: var(--accent-color);
 }
 
+.nav-list .nav-link.current {
+color: var(--accent-color);
+}
+
+
 .main-link {
 		font-weight: 600;
 		line-height: 1.5;
