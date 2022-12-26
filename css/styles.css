@@ -15,7 +15,24 @@ body {
 		font-size: 16px;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+	margin top: 0;
+	margin bottom: 0;
+}
 
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+img {
+	display: block;
+}
+
+button {
+	cursor: pointer;
+}
 
 /* __________ul__________ */
 .list {
@@ -31,6 +48,43 @@ body {
 
 
 /* __________HEADER__________ */
+.header {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	}
+
+.nav-item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	
+	margin-left: auto;
+
+}
+
+.logo {
+	margin-left: 156px;
+	margin-right: 77px;
+}
+
 .logo {
 		font-family: 'Raleway';
 		font-weight: 800;
@@ -61,6 +115,11 @@ body {
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color: var(--title-text-color);
+
+		
+		margin-right: 40px;
+
+
 }
 
 .phone-link {
@@ -69,6 +128,20 @@ body {
 		color: var(--title-text-color);
 }
 
+.container {
+	width: 1128px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12px;
+	padding-right: 12px;
+
+
+
+	
+	
+
+
+}
 
 
 /* __________HERO__________ */
