@@ -48,43 +48,6 @@ button {
 
 
 /* __________HEADER__________ */
-.header {
-	padding-top: 24px;
-	padding-bottom: 24px;
-}
-
-.header-container {
-	display: flex;
-	align-items: center;
-}
-
-.nav {
-	display: flex;
-	align-items: center;
-}
-
-.nav-list {
-	display: flex;
-	align-items: center;
-	}
-
-.nav-item:not(:last-child) {
-	margin-right: 40px;
-}
-
-.list {
-	display: flex;
-	align-items: center;
-	
-	margin-left: auto;
-
-}
-
-.logo {
-	
-	margin-right: 77px;
-}
-
 .logo {
 		font-family: 'Raleway';
 		font-weight: 800;
@@ -115,30 +78,14 @@ button {
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color: var(--title-text-color);
-
-		
-		margin-right: 40px;
-
-
 }
 
 .phone-link {
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color: var(--title-text-color);
-
-		
 }
 
-.container {
-	width: 1128px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 12px;
-	padding-right: 12px;
-
-
-}
 
 
 /* __________HERO__________ */
@@ -153,36 +100,16 @@ button {
 		
 		letter-spacing: 0.02em;
 		color: var(--bg-color-body);
-
-		
-	
-
-
-		
 }
 
 .hero-btn {
 		background: var(--accent-color);
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 		border-radius: 4px;
-
-
-		padding: 16px 32px;
-		display: flex;
-		align-items: center;
-
-
 }
 
 .btn {
 		color: var(--bg-color-body);
-}
-
-.hero-container {
-	width: 1440px;
-	height: 603px;
-	display: flex;
-	align-items: center;
 }
 
 
@@ -308,3 +235,87 @@ color: var(--accent-color);
 }
 
 
+
+/* __________HEADER Styles__________ */
+.header {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+}
+
+.nav-item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.logo {
+	margin-right: 77px;
+}
+
+.contact-link {
+	margin-right: 40px;
+}
+
+.container {
+	width: 1128px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+
+
+/* __________HERO Styles__________ */
+.hero-container {
+	padding-top: 192px;
+	padding-bottom: 192px;
+	text-align: center;
+}
+
+.hero-title {
+	margin-bottom: 48px;
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 1.07;
+
+
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+.hero-btn {
+	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+
+	width: 170px;
+	height: 51px;
+
+	font-weight: 600;
+	line-height: 1.18px;
+	display: inline-block;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.btn {}
