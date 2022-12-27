@@ -81,7 +81,7 @@ button {
 }
 
 .logo {
-	margin-left: 156px;
+	
 	margin-right: 77px;
 }
 
@@ -126,6 +126,8 @@ button {
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color: var(--title-text-color);
+
+		
 }
 
 .container {
@@ -134,11 +136,6 @@ button {
 	margin-right: auto;
 	padding-left: 12px;
 	padding-right: 12px;
-
-
-
-	
-	
 
 
 }
@@ -153,22 +150,40 @@ button {
 		font-weight: 600;
 		font-size: 56px;
 		line-height: 1.07;
-		text-align: center;
+		
 		letter-spacing: 0.02em;
 		color: var(--bg-color-body);
+
+		
+	
+
+
+		
 }
 
 .hero-btn {
 		background: var(--accent-color);
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 		border-radius: 4px;
+
+
+		padding: 16px 32px;
+		display: flex;
+		align-items: center;
+
+
 }
 
 .btn {
 		color: var(--bg-color-body);
 }
 
-
+.hero-container {
+	width: 1440px;
+	height: 603px;
+	display: flex;
+	align-items: center;
+}
 
 
 
