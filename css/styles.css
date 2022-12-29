@@ -9,6 +9,14 @@
 		--footer-p:#E7E9FC;
 }
 
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
 body {
 		font-family: "Roboto", sans-serif;
 		background-color: var(--bg-color-body);
@@ -300,7 +308,7 @@ color: var(--accent-color);
 
 
 	letter-spacing: 0.02em;
-	color: #FFFFFF;
+	color:var(--bg-color-body);
 }
 
 .hero-btn {
@@ -315,7 +323,118 @@ color: var(--accent-color);
 	line-height: 1.18px;
 	display: inline-block;
 	letter-spacing: 0.04em;
-	color: #FFFFFF;
+	color:var(--bg-color-body);
 }
 
-.btn {}
+
+
+/* __________SECTION EXAMPLES Styles__________ */
+.examples-container {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.examples-title-title {
+	display: none;
+}
+
+.examples-title {
+	margin-bottom: 8px;
+}
+
+.examples-description {
+	width: 264px; 
+	height: 104px;
+	margin-right: 24px;
+	margin-top: 0;
+}
+
+
+
+/* __________SECTION 1 Styles__________ */
+.section {}
+
+.container {}
+
+.section-container {
+	
+	
+}
+
+.section-title {
+	margin-bottom: 72px;
+	
+}
+
+.section-list {}
+
+.list {}
+
+.section-item {
+	margin-right: 24px;
+	
+}
+
+.image {}
+
+
+
+/* __________SECTION 2 Styles__________ */
+.section {}
+
+.container {}
+
+.section-container {
+	
+	padding-bottom: 120px;
+}
+
+.section-title {
+	margin-bottom: 72px;
+}
+
+.section-list {}
+
+.list {}
+
+.section-item {
+	margin-right: 24px;
+	text-align: center;
+}
+
+.image {}
+
+.team-name {
+	margin-top: 32px;
+	margin-bottom: 8px;
+}
+
+.team-position {
+	margin-top: 0;
+}
+
+
+
+/* __________FOOTER Styles__________ */
+.container {}
+
+.footer-container {
+	height: 310px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.footer-logo {
+	margin-bottom: 16px;
+}
+
+.link {}
+
+.accent {}
+
+.accent-accent {}
+
+.footer-description {
+	width: 264px;
+	height: 110px;
+}
