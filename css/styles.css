@@ -250,6 +250,8 @@ color: var(--accent-color);
 	padding-top: 24px;
 	padding-bottom: 24px;
 	border-bottom: 1px solid var(--footer-p);
+
+	outline: 1px solid red;
 }
 
 .header-container {
@@ -289,17 +291,19 @@ color: var(--accent-color);
 	width: 1158px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
 
 /* __________HERO Styles__________ */
-.hero-container {
-	padding-top: 192px;
-	padding-bottom: 192px;
+.hero {
+	padding-top: 188px;
+	padding-bottom: 188px;
 	text-align: center;
+
+	outline: 1px solid red;
 }
 
 .hero-title {
@@ -331,9 +335,12 @@ color: var(--accent-color);
 
 
 /* __________SECTION EXAMPLES Styles__________ */
-.examples-container {
+.section-examples {
 	padding-top: 120px;
 	padding-bottom: 120px;
+
+
+	outline: 1px solid red;
 }
 
 .examples-title-title {
@@ -375,9 +382,12 @@ flex-basis: calc((100% - 72px) / 24px);
 
 
 /* __________SECTION 2 Styles__________ */
-.section-container {
+.section {
 	padding-top: 120px;
 	padding-bottom: 120px;
+
+
+	outline: 1px solid red;
 }
 
 .section-title {
@@ -387,7 +397,9 @@ flex-basis: calc((100% - 72px) / 24px);
 
 .section-item * {
 	text-align: center;
-	/* outline: 1px solid red; */
+
+
+	outline: 1px solid red;
 }
 
 .card {
@@ -412,10 +424,13 @@ flex-basis: calc((100% - 72px) / 24px);
 
 
 /* __________FOOTER Styles__________ */
-.footer-container {
+.footer {
 	height: 310px;
 	padding-top: 100px;
 	padding-bottom: 100px;
+
+
+	outline: 1px solid red;
 }
 
 .footer-logo {
@@ -425,4 +440,70 @@ flex-basis: calc((100% - 72px) / 24px);
 .footer-description {
 	width: 264px;
 	height: 110px;
+}
+
+
+
+/* __________MAIN Styles__________ */
+.container {
+	width: 1158px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+		
+}
+
+
+
+.main {
+	
+
+
+
+	outline: 1px solid red;
+}
+
+.main-title-title {
+	display: none;
+}
+
+.main-buttons {
+	padding-top: 96px;
+	padding-bottom: 72px;
+
+	
+}
+
+.main-list {
+
+}
+
+.main-container {
+	/* display: flex; */
+		/* align-items: center; */
+
+		display: inline-block;
+
+		/* text-align: center; */
+}
+
+
+.main-buttons-container {
+
+
+}
+
+
+.main-item {
+	margin-right: 24px;
+	
+			
+/* flex-basis: calc((100% - 72px) / 24px); */
+}
+
+.main-btn-primary {
+	padding: 12px 24px;
+		
 }
