@@ -445,65 +445,59 @@ flex-basis: calc((100% - 72px) / 24px);
 
 
 /* __________MAIN Styles__________ */
-.container {
-	width: 1158px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-
-		
-}
-
-
-
 .main {
 	
-
-
-
-	outline: 1px solid red;
+		outline: 1px solid red;
 }
 
 .main-title-title {
 	display: none;
 }
 
+.main-buttons-container {
+text-align: center;
+}
+
 .main-buttons {
 	padding-top: 96px;
 	padding-bottom: 72px;
-
-	
+	display: inline-block;
 }
 
-.main-list {
-
+.main-card-container {
+text-align: left;
 }
 
-.main-container {
-	/* display: flex; */
-		/* align-items: center; */
-
-		display: inline-block;
-
-		/* text-align: center; */
+.main-card-container > .main-item-item {
+	display: inline-block;
 }
-
-
-.main-buttons-container {
-
-
-}
-
 
 .main-item {
 	margin-right: 24px;
-	
-			
-/* flex-basis: calc((100% - 72px) / 24px); */
+
+}
+
+.main-item-item {
+	margin-right: 24px;
+
+
+
+}
+
+.main-title {
+margin-top: 32px;
+margin-bottom: 0;
+}
+
+.card-content {
+	padding-bottom: 48px;
+}
+
+.main-description {
+	margin-top: 8px;
+	margin-bottom: 0;
 }
 
 .main-btn-primary {
 	padding: 12px 24px;
-		
 }
