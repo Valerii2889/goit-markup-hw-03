@@ -251,7 +251,7 @@ color: var(--accent-color);
 	padding-bottom: 24px;
 	border-bottom: 1px solid var(--footer-p);
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .header-container {
@@ -303,7 +303,7 @@ color: var(--accent-color);
 	padding-bottom: 188px;
 	text-align: center;
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .hero-title {
@@ -340,7 +340,7 @@ color: var(--accent-color);
 	padding-bottom: 120px;
 
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .examples-title-title {
@@ -387,7 +387,7 @@ flex-basis: calc((100% - 72px) / 24px);
 	padding-bottom: 120px;
 
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .section-title {
@@ -399,7 +399,7 @@ flex-basis: calc((100% - 72px) / 24px);
 	text-align: center;
 
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .card {
@@ -430,7 +430,7 @@ flex-basis: calc((100% - 72px) / 24px);
 	padding-bottom: 100px;
 
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .footer-logo {
@@ -446,8 +446,7 @@ flex-basis: calc((100% - 72px) / 24px);
 
 /* __________MAIN Styles__________ */
 .main {
-	
-		outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .main-title-title {
@@ -455,7 +454,7 @@ flex-basis: calc((100% - 72px) / 24px);
 }
 
 .main-buttons-container {
-text-align: center;
+	text-align: center;
 }
 
 .main-buttons {
@@ -464,24 +463,12 @@ text-align: center;
 	display: inline-block;
 }
 
-.main-card-container {
-text-align: left;
-}
-
-.main-card-container > .main-item-item {
-	display: inline-block;
-}
-
-.main-item {
-	margin-right: 24px;
-
-}
-
-.main-item-item {
-	margin-right: 24px;
-
-
-
+.main-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	text-align: left;
+	padding-bottom: 48px;
 }
 
 .main-title {
