@@ -283,7 +283,7 @@ color: var(--accent-color);
 	margin-right: 77px;
 }
 
-.contact-link {
+.item {
 	margin-right: 40px;
 }
 
@@ -358,7 +358,7 @@ color: var(--accent-color);
 }
 
 .examples-item {
-flex-basis: calc((100% - 72px) / 24px);
+/* flex-basis: calc((100% - 72px) / 24px); */
 }
 
 .examples-title {
@@ -378,14 +378,6 @@ flex-basis: calc((100% - 72px) / 24px);
 /* __________SECTION 1 Styles__________ */
 .section-title {
 	margin-bottom: 72px;
-}
-
-.section-item {
-
-
-	
-
-
 }
 
 
@@ -478,16 +470,11 @@ text-align: center;
 	flex-wrap: wrap;
 	gap: 24px;
 	text-align: left;
-	
 }
 
 .main-title {
 margin-top: 0px;
 margin-bottom: 8px;
-}
-
-.card-content {
-
 }
 
 .main-description {
@@ -497,6 +484,5 @@ margin-bottom: 8px;
 
 .main-btn-primary {
 	padding: 12px 24px;
-
 	border: none;
 }
