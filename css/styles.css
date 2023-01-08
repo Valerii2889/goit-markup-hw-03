@@ -22,6 +22,20 @@
 	padding: 120px 0;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 body {
 	font-family: "Roboto", sans-serif;
 	background-color: var(--bg-color-body);
@@ -197,12 +211,6 @@ button {
 	padding-bottom: 0;
 }
 
-.examples-title-title {
-	visibility: hidden;
-
-vi
-}
-
 .examples-title {
 	font-weight: 600;
 	font-size: 20px;
@@ -241,12 +249,8 @@ vi
 
 
 /* __________SECTION 2__________ */
-.section-job {
-	padding-bottom: 0;
-}
-
 .section-team {
-	background color: var(--footer--);
+	background-color: var(--footer);
 }
 
 .section-title {
@@ -337,10 +341,6 @@ vi
 /* __________MAIN__________ */
 .main {
 	padding-top: 96px;
-}
-
-.main-title-title {
-	visibility: hidden;
 }
 
 .btn-list {
